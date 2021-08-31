@@ -422,7 +422,7 @@ static InitRoutine EC([]() {
     init();
 });
 
-static CatCommand reload_ts("teamspam_reload", "Relaod teamspam file", teamspam_reload_command);
+static CatCommand reload_ts("teamspam_reload", "Reload teamspam file", teamspam_reload_command);
 
 static CatCommand reload_cc("spam_reload", "Reload spam file", hacks::shared::spam::reloadSpamFile);
 } // namespace hacks::shared::spam
